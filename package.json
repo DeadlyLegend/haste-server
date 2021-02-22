@@ -12,7 +12,7 @@
     "email": "john.crepezzi@gmail.com",
     "url": "http://seejohncode.com/"
   },
-  "main": "server.js",
+  "main": "haste",
   "dependencies": {
     "busboy": "0.2.4",
     "connect": "^3.7.0",
@@ -42,7 +42,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "mocha --recursive",
-    "build": "node server.js"
+    "test": "mocha --recursive"
   }
 }
